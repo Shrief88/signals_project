@@ -19,5 +19,10 @@ This project for Faculty of Engineering, Ain Shams University at my 2nd Electric
 15. Verify steps 4, 5, 6, 7, 9, 13, and 14 by equations and hand analysis.
 
 # General Constraints:
-take fs = 10000 and ts = 1/fs   
-so => t = -1 : ts : 1-ts.
+take fs = 10000 and ts = 1/fs so => t = -1 : ts : 1-ts.  
+Useful Matlab / GNU-Octave Commands:
+1. freqz
+2. filter
+3. butter
+4. fft, fftshift
+5. audioread, audiowrite
